@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+  background-color: #078191;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  font-size: larger;
+  background-color: #d3f3ec;
+}
+
+.hero h1 {
+  font-size: 50px;
+  color: #156a80;
+}
+
+.WebInfo {
+  width: 50%;
+  padding: 20px;
+}
+
+div img {
+    border-radius: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.card1 {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #10A997;
+  color: white;
+  border-radius: 10px;
+  height: 180px;
+}
+.card2 {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #4dd1b2;
+  color: white;
+  border-radius: 10px;
+}
+.card3 {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #10A997;
+  color: white;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #078191;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 37px;
+  padding: 20px;
+}
